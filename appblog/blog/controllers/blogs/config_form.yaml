@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Blog
+
+# Model Form Field configuration
+form: $/appblog/blog/models/blog/fields.yaml
+
+# Model Class name
+modelClass: AppBlog\Blog\Models\Blog
+
+# Default redirect location
+defaultRedirect: appblog/blog/blogs
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: appblog/blog/blogs/update/:id
+    redirectClose: appblog/blog/blogs
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: appblog/blog/blogs
+    redirectClose: appblog/blog/blogs
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

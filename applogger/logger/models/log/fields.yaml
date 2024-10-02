@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+
+    arrival:
+        label: arrival
+
+    username:
+        label: username
+
+    delay:
+        label: delay

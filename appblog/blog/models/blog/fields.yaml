@@ -1,0 +1,23 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: Title
+        span: left
+    author:
+        label: Author
+        span: right
+    published_at:
+        label: Published
+        span: left
+        type: datepicker
+    is_premium:
+        label: Premium
+        span: right
+        type: switch
+    text:
+        label: Text
+        span: full
+        type: richeditor
